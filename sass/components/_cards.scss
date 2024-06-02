@@ -1,3 +1,12 @@
+.portada{
+    text-align: center;
+    &__foto{
+        width: 55rem;
+        height: 38rem;
+        padding: 3rem;
+    }
+}
+
 .card {
     width: 16rem;
     max-width: 500px;
