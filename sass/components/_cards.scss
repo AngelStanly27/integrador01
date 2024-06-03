@@ -6,12 +6,16 @@
         padding: 3rem;
     }
 }
+.yami{
+    text-align: center;
+}
 
 .card {
     width: 16rem;
     max-width: 500px;
     height: 30rem;
-    background-color: orange;
+    // background-color: #597CFF;
+    background: linear-gradient(to bottom,  #597CFF, #FFFFFF);
     overflow: visible;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -35,7 +39,12 @@
         border-bottom-right-radius: 8px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+        &:hover,
+        &:focus {
         
+        box-shadow: 0px 7px 8px 0px  #597CFF;
+    }
+    
     }
 
     // &:hover &__image, 
@@ -51,12 +60,19 @@
             transform: scale(1.15);
 
         }
-        
+      }
+      &__heading{
+       
+            text-align: center;
+            color: black;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+      }
     //     height: 200px;
     //     background-color: blue;
     //     overflow: hidden;
     //     clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px); /* Estado inicial */
-     }
+     
 
     //skew(0) (2deg)
         
