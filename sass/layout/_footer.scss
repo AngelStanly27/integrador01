@@ -1,0 +1,37 @@
+footer{ 
+   
+    padding: 3rem;
+    text-align: center;
+}
+.food{
+    // width: 62rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo{
+        width: 16rem;
+        height: 4.6rem;
+        text-align: center;
+    }
+
+    &__avisos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: stretch;
+    }
+    &__inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: stretch;
+
+    }
+    
+    &__nota{
+        width: 15.5rem;
+        text-align: justify;
+    }
+} 
