@@ -1,7 +1,7 @@
 .portada{
     text-align: center;
     background: linear-gradient(to bottom,  #EAE6E3, #CABB9E);
-    padding-bottom: -3rem;
+    height: 38.5rem;
     &__foto{
         width: 56rem;
         height: 38.5rem;
@@ -15,6 +15,7 @@
 
 .cards-container{
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .card {

@@ -8,8 +8,35 @@ body {
 h1{
     text-align: center;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
+
+a.nav-bar__nav-link:link{
+    color: #5e5f61;  
+    text-decoration: none;
+ }
+ a.nav-bar__nav-link:visited{
+     background: #F2F4FF; 
+ }
+ a.nav-bar__nav-link:hover{
+     color:  #5e5f61;
+ }
+ a.nav-bar__nav-link:visited{
+     color:  #5e5f61;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{

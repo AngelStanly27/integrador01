@@ -13,49 +13,63 @@
     }
 }
 
+
+
 #menu {
     display: none;
 
     &:checked + .nav-bar {
         display: block;
     }
-
-    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
-        background-color: yellow;
-    }
-
 }
 
+//     &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+//         background-color: yellow;
+//     }
 
-/* -------------------------------------------------------- */
-/* NAVBAR */
-/* -------------------------------------------------------- */
+// }
+
+
+// /* -------------------------------------------------------- */
+// /* NAVBAR */
+// /* -------------------------------------------------------- */
 
 .nav-bar {
-    background-color: mediumaquamarine;
+   padding-top: 1rem;
 
     &__nav-list { /* .nav-bar__nav-list */
         display: flex;
         list-style-type: none;
-        justify-content: center;
+        justify-content: right;
+        
+        padding-right: 5rem;
 
-        @media (max-width: 768px) {
-            & {
-                flex-direction: column;
-            }
-        }
+        
+
+        // @media (max-width: 768px) {
+        //     & {
+        //         flex-direction: column;
+        //     }
+        // }
     }
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
+        // background-color: pink;
+       
+        border-left: 2rem solid transparent;
+        
+        
     }
 
     &__nav-link {
         display: block;
-        background-color: purple;
+        background-color: #F2F4FF; 
         padding: 1rem 2rem;
         text-decoration: none;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px 1px #597CFF;
+        
     }
 
     @media (max-width: 768px) {
@@ -65,9 +79,9 @@
     }
 }
 
-/* -------------------------------------------------------- */
-/* SEARCH BAR */
-/* -------------------------------------------------------- */
+// /* -------------------------------------------------------- */
+// /* SEARCH BAR */
+// /* -------------------------------------------------------- */
 
 .search-bar {
     background-color: olivedrab;
@@ -75,8 +89,8 @@
     justify-content: space-around;
 
     &__logo-container { /* .search-bar__logo-container */
-        width: 18.75rem;
-        height: 3.75rem;
+        position: absolute;
+        top: 1.5rem; left: 0;
         
     }
     &__logo{
@@ -85,11 +99,12 @@
 
     &__form-container {
        padding: 1rem;
+      
 
-       background-color: gold;
+    //    background-color: gold;
        display: flex;
        flex-basis: 100%;
-       justify-content: center;
+       justify-content: right;
     }
 
     &__form-label {
@@ -113,50 +128,50 @@
 }
 
 
-/* -------------------------------------------------------- */
-/* MENÚ TOOGLE */
-/* -------------------------------------------------------- */
+// /* -------------------------------------------------------- */
+// /* MENÚ TOOGLE */
+// /* -------------------------------------------------------- */
 
-.menu-toogle {
-    display: none;
-    background-color: red;
-    flex: 0 0 3rem;
-    position: relative;
-    cursor: pointer;
+// .menu-toogle {
+//     display: none;
+//     background-color: red;
+//     flex: 0 0 3rem;
+//     position: relative;
+//     cursor: pointer;
 
-    &__label {
-        display: block;
-        background-color: black;
-        height: 100%;
-    }
+//     &__label {
+//         display: block;
+//         background-color: black;
+//         height: 100%;
+//     }
 
-    &__top-bread,
-    &__meat,
-    &__bottom-bread {
-        display: block;
-        background-color: #333;
-        height: .2rem;
-        position: absolute;
-        left: .5rem;
-        right: .5rem;
-    }
+//     &__top-bread,
+//     &__meat,
+//     &__bottom-bread {
+//         display: block;
+//         background-color: #333;
+//         height: .2rem;
+//         position: absolute;
+//         left: .5rem;
+//         right: .5rem;
+//     }
 
-    &__top-bread {
-        top: .8rem;
-    }
+//     &__top-bread {
+//         top: .8rem;
+//     }
 
-    &__meat {
-        top: 50%;
-        margin-top: -.1rem;
-    }
-    &__bottom-bread {
-        bottom: .8rem;
-    }
+//     &__meat {
+//         top: 50%;
+//         margin-top: -.1rem;
+//     }
+//     &__bottom-bread {
+//         bottom: .8rem;
+//     }
 
-    @media (max-width: 768px) {
-        & { /* .menu-toogle */
-            display: block;
-        }
-    }
-}
+//     @media (max-width: 768px) {
+//         & { /* .menu-toogle */
+//             display: block;
+//         }
+//     }
+// }
 
