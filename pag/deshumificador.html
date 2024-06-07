@@ -5,7 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deshumificador</title>
 </head>
-<body>
+<body><header class="main-header">
+  <input type="checkbox" id="menu">
+
+  <nav class="nav-bar">
+    <ul class="nav-bar__nav-list">
+      <li class="nav-bar__nav-item">
+        <a href="http://localhost:3333/" class="nav-bar__nav-link">Inicio</a>
+      </li>
+      <li class="nav-bar__nav-item">
+        <a href="pag/alta.html" class="nav-bar__nav-link">Alta</a>
+      </li>
+      <li class="nav-bar__nav-item">
+        <a href="pag/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+      </li>
+      <li class="nav-bar__nav-item">
+        <a href="pag/contacto.html" class="nav-bar__nav-link">Contacto</a>
+      </li>
+    </ul>
+  </nav> <!-- .nav-bar -->
+
+  <div class="search-bar">
+    <div class="search-bar__logo-container">
+      <img src="logo.png"  class="search-bar__logo input" alt="Aires Acondicionados EL Angel">
+    </div>
+
+    <form action="" class="search-bar__form-container">
+      <label for="busqueda" class="search-bar__form-label">Buscar</label>
+      <input type="search" class="search-bar__form-search " id="busqueda">
+      
+      <div class="input-svg">
+        <input type="submit" class="search-bar__form-submit" value="Buscar">
+
+        <!-- SVG -->
+       <svg   xmlns="http://www.w3.org/2000/svg"  class="input-icon"        viewBox="0 0 20 20"      fill="currentColor">
+       <path     fill-rule="evenodd"        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+       </svg>
+      </div>
+    
+      <!--! <i class="fa fa-search"></i> -->
+    </form>
+    <!-- Carrito -->
+    <div class="search-bar__carrito-container">
+      <i class="fa-solid fa-cart-shopping">
+        <div class="buy-car">
+          <ul class="nav-car">
+              <li>Imagen</li>
+              <li>Nombre</li>
+              <li>Precio</li>
+              <li>Cantidad</li>
+          </ul>
+          <button>VACIAR CARRITO</button>
+        </div>
+      </i>
+    </div> 
+    <!-- Carrito -->
+    <div class="menu-toogle">
+      <label for="menu" class="menu-toogle__label">
+        <span class="menu-toogle__top-bread"></span>
+        <span class="menu-toogle__meat"></span>
+        <span class="menu-toogle__bottom-bread"></span>
+      </label>
+    </div>
+  </div> <!-- .search-bar -->
+
+</header> <!-- main-header -->
     <h1>Deshumificador</h1>
 
     <!-- footer -->

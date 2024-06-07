@@ -3,7 +3,7 @@
 body {
     font-family: ProximaNova, Montserrat, sans-serif;
     font-size: 100%; // default navegadores 16px
-    color: #5e5f61;;
+    color: #5e5f61;
 }
 h1{
     text-align: center;
@@ -36,12 +36,18 @@ a.nav-bar__nav-link:link{
 }
 .search-bar__form-search{
     font-family: "Poppins", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     padding: 0.5rem;
     font-weight: 300;
     color: #2B3D37;
 }
-
+.nav-car li{
+    font-family: ProximaNova, Montserrat, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-decoration: underline
+}
 
 
 
