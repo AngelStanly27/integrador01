@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src= "https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src= "https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>></script>
     <title>Proyecto Integrador - Inicio</title>
   </head>
   <body>
@@ -30,13 +31,23 @@
 
       <div class="search-bar">
         <div class="search-bar__logo-container">
-          <img src="pag/logo.png"  class="search-bar__logo" alt="Aires Acondicionados EL Angel">
+          <img src="pag/logo.png"  class="search-bar__logo input" alt="Aires Acondicionados EL Angel">
         </div>
 
         <form action="" class="search-bar__form-container">
           <label for="busqueda" class="search-bar__form-label">Buscar</label>
-          <input type="search" class="search-bar__form-search" id="busqueda">
-          <input type="submit" class="search-bar__form-submit" value="Buscar">
+          <input type="search" class="search-bar__form-search " id="busqueda">
+          
+          <div class="input-svg">
+            <input type="submit" class="search-bar__form-submit" value="Buscar">
+
+            <!-- SVG -->
+           <svg   xmlns="http://www.w3.org/2000/svg"  class="input-icon"        viewBox="0 0 20 20"      fill="currentColor">
+           <path     fill-rule="evenodd"        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+           </svg>
+          </div>
+        
+          <!--! <i class="fa fa-search"></i> -->
         </form>
         <!-- Carrito -->
         <div class="search-bar__carrito-container">
