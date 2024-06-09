@@ -1,6 +1,4 @@
-.h-1{
-    padding-top: 3rem;
-}
+
 .three{
     display: flex;
     justify-content: space-around;
@@ -43,6 +41,8 @@
     width: 15rem;
     
     background-color: #0d6efd;
+    box-shadow: 1px 1px 5px 2px  #092e5e;
+
 }
 .detalles p{
     text-align: justify;
@@ -53,13 +53,17 @@
 .modelo{
     text-align: center;
     padding-top: 3rem;
+    
+    &__caracter{
+        padding-top: 1rem;
+    }
 }
 
 .end{
     display: flex;
     justify-content: center;
     &__buy-list{
-        margin: 3rem 3rem 3rem 2rem;
+        margin: 3rem 4rem 3rem 2rem;
         // border-radius: 0.5rem;
         // box-shadow: 1px 1px 2px 1px  #671e53;
         
@@ -67,7 +71,7 @@
     &__bottom{
         position: relative;
         padding: 2rem;
-        margin: 2rem;
+        margin: 2.7rem;
         border: none;
         outline: none;
         border-radius: 8px;

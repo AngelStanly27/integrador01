@@ -7,7 +7,7 @@ body {
 }
 h1{
     text-align: center;
-    padding: 1rem;
+    padding-top: 3rem;
     font-size: 2.3rem;
     font-weight: 600;
 }
@@ -48,11 +48,38 @@ a.nav-bar__nav-link:link{
     letter-spacing: 0.05rem;
     text-decoration: underline
 }
+
 .end__bottom{
     text-decoration: none;
-    color: antiquewhite;
+    color: #F2F4FF;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.detalles h3{
+    color: #F2F4FF;
+    font-size: 1.2em;
+}
+.para h3{
+    color: #F2F4FF;
+    font-size: 1.2em;
 }
 
+.txt-food{
+    text-transform: uppercase;
+    font-size: 1.6em;
+    color: #003399;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px  #2058d2;
+}
+.year-parr{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: initial;
+    text-decoration: underline;
+}
+.historia__year p{
+    text-align: justify;
+}
 
 
 
