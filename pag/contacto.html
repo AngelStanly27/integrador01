@@ -12,16 +12,16 @@
   <nav class="nav-bar">
     <ul class="nav-bar__nav-list">
       <li class="nav-bar__nav-item">
-        <a href="http://localhost:3333/" class="nav-bar__nav-link">Inicio</a>
+        <a href="http://localhost:3333" class="nav-bar__nav-link">Inicio</a>
       </li>
       <li class="nav-bar__nav-item">
-        <a href="pag/alta.html" class="nav-bar__nav-link">Alta</a>
+        <a href="alta.html" class="nav-bar__nav-link">Alta</a>
       </li>
       <li class="nav-bar__nav-item">
-        <a href="pag/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+        <a href="nosotros.html" class="nav-bar__nav-link">Nosotros</a>
       </li>
       <li class="nav-bar__nav-item">
-        <a href="pag/contacto.html" class="nav-bar__nav-link">Contacto</a>
+        <a href="contacto.html" class="nav-bar__nav-link">Contacto</a>
       </li>
     </ul>
   </nav> <!-- .nav-bar -->
@@ -71,7 +71,118 @@
   </div> <!-- .search-bar -->
 
 </header> <!-- main-header -->
-    <h1>Contacto</h1>
+
+<main>
+  <h1>Contacto</h1>
+<div class="contacto">
+
+  <nav class="contacto-num">
+    <p>Tienda</p>
+    <p>Consultas Comerciales</p>
+    <h3 class="contacto-phone">900 900 900 (Ext.1)</h3>
+  </nav>
+  <nav class="contacto-num">
+    <p>Dpt. Técnico</p>
+    <p>Consultas Técnicas</p>
+    <h3 class="contacto-phone">900 900 900 (Ext.2)</h3>
+  </nav>
+  <nav class="contacto-num">
+    <p>Dpt. Reclamaciones</p>
+    <p>Garantía y devolución</p>
+    <h3 class="contacto-phone">900 900 900 (Ext.3)</h3>
+  </nav>
+  <nav class="contacto-num">
+    <p>Dpt. Administración</p>
+    <p>Consultas Administrativas</p>
+    <h3 class="contacto-phone">900 900 900 (Ext.4)</h3>
+  </nav>
+
+</div>
+<!-- Formulario -->
+<div>
+  <hr><h2>¡Contacte con nosotros!</h2>
+  <div class="form-group">
+    <label class="form__label">Nombre</label>
+    <div class="form__control">
+      <input type="text" name="name" required="required" class="form__input">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="form__label">Email</label>
+    <div class="form__control">
+      <input type="email" name="email" required="required" class="form__input">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="form__label">Asunto</label>
+    <div class="form__control">
+      <input type="text" name="asunto" required="required" class="form__input">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="form__label">Mensaje</label>
+    <div class="form__control">
+      <textarea  name="mensaje" required="required" class="form__input"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" name="enviar" class="form__enviar">Enviar</button>
+  </div>
+  
+</div>
+<!-- horario - localization -->
+<div class="horario">
+  <div class="horario__dias">
+    <h3>Horario Laboral</h3>
+    <div class="semana">
+      <ul>
+        <p>Lunes</p>
+        <p>De 08:00 a 18:00</p>
+      </ul>
+      <ul>
+        <p>Martes</p>
+        <p>De 08:00 a 18:00</p>
+      </ul><ul>
+        <p>Miércoless</p>
+        <p>De 08:00 a 18:00</p>
+      </ul><ul>
+        <p>Jueves</p>
+        <p>De 08:00 a 18:00</p>
+      </ul><ul>
+        <p>Viernes</p>
+        <p>De 08:00 a 18:00</p>
+      </ul><ul>
+        <p>Sábado</p>
+        <p>De 08:00 a 12:00</p>
+      </ul><ul>
+        <p>Domingo</p>
+        <p>Cerrado</p>
+      </ul>
+    </div>
+  </div>
+  <!-- tiendas -->
+  <div class="horario__tiendas">
+    <div class="lugar">
+      <h4>Buenos Aires</h4>
+      <p>Calle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit a delectus sit nisi.</p>
+      <p id="phone-tienda">Teléfono: 900 900 900</p>
+    </div>
+    <div class="lugar">
+      <h4>la Plata</h4>
+      <p>Calle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit a delectus sit nisi.</p>
+      <p id="phone-tienda">Teléfono: 900 900 900</p>
+    </div>
+    <div class="lugar">
+      <h4>Quilmes</h4>
+      <p>Calle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit a delectus sit nisi.</p>
+      <p id="phone-tienda">Teléfono: 900 900 900</p>
+    </div>
+
+  </div>
+</div>
+
+
+</main>
 
     <!-- footer -->
     <footer>
