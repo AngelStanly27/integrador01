@@ -6,11 +6,17 @@
         width: 56rem;
         height: 38.5rem;
     }
+    @media (max-width: 768px){
+        display: none;
+    }
 }
 .yami{
     text-align: center;
     padding-bottom: 3rem;
     padding-top: 1rem;
+    @media (max-width: 768px){
+        padding-bottom: 0;
+    }
 }
 
 .cards-container{
