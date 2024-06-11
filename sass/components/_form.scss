@@ -3,6 +3,14 @@
     display: flex;
     justify-content: space-around;
     padding-top: 3rem;
+        
+        @media (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+            align-items: center;
+            gap: 1.5rem;
+        }
      
     &__photo{
         width: 24rem;
@@ -17,6 +25,13 @@
     justify-content: center;
     // height: 12rem;
     margin-top: 5rem;
+    
+        @media (max-width: 768px){
+            flex-direction: column;
+            margin-top: 1rem;
+            align-items: center;
+        }
+
 
     &__producto{
         display: flex;
@@ -30,6 +45,11 @@
         align-items: end;
         width: 28rem;
         margin: 0 6rem;
+
+            @media (max-width: 768px){
+                align-items: flex-start;
+            }
+
     }
 }
 .detalles h3{
@@ -43,9 +63,16 @@
     background-color: #0d6efd;
     box-shadow: 1px 1px 5px 2px  #092e5e;
 
+        @media (max-width: 768px){
+            margin-top: 2rem;;
+        }
+
+
 }
 .detalles p{
     text-align: justify;
+        @media (max-width: 768px){}
+
 }
 .devl{
     padding-top: 3rem;
@@ -53,6 +80,9 @@
 .modelo{
     text-align: center;
     padding-top: 3rem;
+      @media (max-width: 768px){
+        padding-top: 1rem;
+      }
     
     &__caracter{
         padding-top: 1rem;
@@ -64,9 +94,9 @@
     justify-content: center;
     &__buy-list{
         margin: 3rem 4rem 3rem 2rem;
-        // border-radius: 0.5rem;
-        // box-shadow: 1px 1px 2px 1px  #671e53;
-        
+            @media (max-width: 768px){
+                margin: 0;
+            }
         }
     &__bottom{
         position: relative;
@@ -79,7 +109,11 @@
         transition: 0.5s;
         color: #FFFF;
         cursor: pointer;
-    }
+
+            @media (max-width: 768px){
+                padding: 1rem;
+            }
+        }
 
 }
 
@@ -87,6 +121,10 @@
     position: absolute;
     background-color: #FFFF;
     transition: 0.5s;
+        @media (max-width: 768px){
+            background-color: transparent;
+        }
+
 }
 .end__bottom span:nth-child(1){
         width: 100%;

@@ -156,7 +156,7 @@
     &__carrito-container {
         height: 2.6rem;
         padding-top: 2rem;
-        padding-left: .5 rem;
+        padding-left: .5rem;
         padding-right: 1rem;
         cursor: pointer;
 
@@ -177,7 +177,7 @@
 
             li{
                 list-style: none;
-                padding: 1rem;
+                padding: 0.9rem;
                 font-weight: bold;
             }
         }
@@ -197,12 +197,11 @@
             }
         }
         i:hover .nav-car{
-            font-size: 0.8rem;
+            font-size: 1rem;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            margin: 0.6rem 0.6rem 0.6rem 0.6rem;
-        }
+         }
+         
         i:hover .buy-car > button{
             display: block;
             width: 65%;

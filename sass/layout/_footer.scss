@@ -19,7 +19,7 @@ footer{
         text-align: center;
         border-radius: 8px;
         @media (max-width: 768px){
-            width: 12rem;
+            width: 11rem;
         }
     }
 
@@ -38,7 +38,10 @@ footer{
     }
     
     &__nota{
-        width: 15.5rem;
+        width: 12rem;
         text-align: justify;
+            @media (max-width: 768px){
+                width: 10.5rem;
+            }
     }
 } 

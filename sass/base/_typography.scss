@@ -80,7 +80,11 @@ a.nav-bar__nav-link:link{
 .historia__year p{
     text-align: justify;
 }
-
+.modelo__caracter{
+    @media (max-width: 768px){
+        font-size: 1.3rem;
+    }
+}
 
 
 
