@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-around;
     padding: 3rem 0;
-    
+        @media (max-width: 768px){
+            gap: 1rem;
+            padding-top: 2rem;
+        }
     &__num{
         padding: 1rem 1.5rem;
         border: 2px solid  #2563EB;
@@ -14,6 +17,10 @@
     &__phone{
         color: #2563EB;
         cursor: pointer;
+
+        @media (max-width: 768px){
+            text-align: center;
+        }
     }
 }
 
@@ -67,7 +74,10 @@ hr{
 .horario{
     display: flex;
     justify-content: center;
-    margin: 3rem ;
+    margin: 3rem;
+        @media (max-width: 768px){
+            flex-direction: column;
+        }
     
     &__dias{
         display: flex;
