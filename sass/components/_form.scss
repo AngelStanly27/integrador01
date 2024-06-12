@@ -14,7 +14,8 @@
      
     &__photo{
         width: 24rem;
-        height: 17;
+        min-height: 18rem;
+        max-height: 26rem;
         box-shadow: 1px 1px 5px 3px  #929599;
 
     }
