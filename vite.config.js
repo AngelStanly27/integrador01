@@ -12,7 +12,6 @@ export default {
         rollupOptions: {
             input: {
                 alta: resolve('pag/alta.html'),
-                carrito: resolve('pag/carrito.html'),
                 contacto: resolve('pag/contacto.html'),
                 nosotros: resolve('pag/nosotros.html'),
                 split: resolve('pag/split.html'),
