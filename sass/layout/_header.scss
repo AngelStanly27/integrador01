@@ -65,11 +65,11 @@
 
     &__nav-link {
         display: block;
-        background-color: #F2F4FF; 
+        background-color: var(--azul-claro); 
         padding: 0.5rem 2rem;
         text-decoration: none;
         border-radius: 8px;
-        box-shadow: 2px 2px 5px 1px #597CFF;
+        box-shadow: 2px 2px 5px 1px var(--azul-oscuro);
         
     }
 
@@ -187,7 +187,7 @@
             position: absolute;
             right: 7.5rem;
             top: 5.2rem;
-            background-color: #E9E5E2;
+            background-color: var(--portada-claro);
             border-radius: 10px;
             transition: 2s;
            
@@ -207,9 +207,9 @@
             width: 65%;
             padding: 1rem;
             margin: 0.7rem auto;
-            box-shadow: 2px 2px 5px 1px #5e5f61;
+            box-shadow: 2px 2px 5px 1px var(--letras-body);
             border-radius: 8px;
-            background-color: #E9E5E2;
+            background-color: var(--portada-claro);
             cursor: pointer;
         }
 //--------------------------------------------------------------
@@ -222,7 +222,7 @@
     // width:rem
 }
 .input-icon {
-    color: #5E5F61;
+    color: var(--letras-body);
     position: absolute;
     width: 3rem;
     height: 3rem;
@@ -253,7 +253,7 @@
     
     &__label {
         display: block;
-        background-color: #5E5F61;
+        background-color: var(--letras-body);
         height: 70%;
         border-radius: 10px;
     }
@@ -262,7 +262,7 @@
     &__meat,
     &__bottom-bread {
         display: block;
-        background-color: #D2CDC1;
+        background-color: var(--letras-footer);
         height: .2rem;
         position: absolute;
         left: .5rem;

@@ -14,6 +14,10 @@ export default {
                 alta: resolve('pag/alta.html'),
                 contacto: resolve('pag/contacto.html'),
                 nosotros: resolve('pag/nosotros.html'),
+                nosotros: resolve('pag/central.html'),
+                nosotros: resolve('pag/cortina.html'),
+                nosotros: resolve('pag/duo.html'),
+                nosotros: resolve('pag/deshumificador.html'),
                 
                 inicio: resolve('index.html'), /* D:\_course\7170.bootcamp.fulltack\clase-23\bc-71350-integrador-etapa-1 */
             }

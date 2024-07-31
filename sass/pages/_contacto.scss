@@ -8,14 +8,14 @@
         }
     &__num{
         padding: 1rem 1.5rem;
-        border: 2px solid  #2563EB;
+        border: 2px solid var(--azul-oscuro);  
         border-radius: 8px;
         text-align: center;
-        box-shadow: 0px 0px 2px 1px  #092e5e;
+        box-shadow: 0px 0px 2px 1px  var(--azul-black);
 
     }
     &__phone{
-        color: #2563EB;
+        color: var(--azul-oscuro);
         cursor: pointer;
 
         @media (max-width: 768px){
@@ -25,8 +25,8 @@
 }
 
 hr{
-    color: #2563EB;
-    box-shadow: 0px 0px 2px 1px  #092e5e;
+    color: var(--azul-oscuro);
+    box-shadow: 0px 0px 2px 1px  var(--azul-black);
 }
 #h2-cont{
     text-align: center;
@@ -40,7 +40,7 @@ hr{
     align-items: center;
     margin: 2rem;
     padding: 2.5rem ;
-    box-shadow: 1px 1px 5px 3px #929599;
+    box-shadow: 1px 1px 5px 3px var(--sombra-caja);
     &__group{
         
         display: flex;
@@ -54,19 +54,19 @@ hr{
     }
     &__control{
         display: block;
-        color: blue;
+        color: var(--azul-oscuro);
     }
     &__enviar{
        display: block;
        position: relative;
-       padding: 1rem 2.5rem;
+       padding: 1.8rem 2.5rem;
        margin-top: 1.5rem; 
        border: none;
        outline: none;
        border-radius: 8px;
-       background: linear-gradient(to bottom, #7940bb, #0A284A);
+       background: linear-gradient(to bottom, var(--azul-oscuro), var(--azul-black));
        transition: 0.5s;
-       color: white;
+       color: var(--letras-footer);
        cursor: pointer;
     }
 }
@@ -94,7 +94,7 @@ hr{
     display: flex;
     flex-direction: column;
     width: 25rem;
-    box-shadow: 0px 0px 2px 1px  blue;
+    box-shadow: 0px 0px 2px 1px var(--azul-oscuro);
     padding: 1rem;
     border-radius: 10px;
 

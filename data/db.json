@@ -1,0 +1,16 @@
+{
+    "productos": [
+        { "id": 1, "url": "/pag/spilt.html", "nombre": "Aire Acondicionado Split", "foto": "pag/img/split-uno.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 222.20},
+        { "id": 2, "url": "/pag/duo.html", "nombre": "Aire Acondicionado Split Dúo", "foto": "pag/img/duo-split.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 333.30},
+        { "id": 3, "url": "/pag/triple.html", "nombre": "Aire Acondicionado Split Triple", "foto": "pag/img/tri-split.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 444.40},
+        { "id": 4, "url": "/pag/techo.html", "nombre": "Aire Acondicionado de Techo", "foto": "/pag/img/techo-tres.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 555.50},
+        { "id": 5, "url": "/pag/ind.html", "nombre": "Aire Acondicionado Industrial", "foto": "/pag/img/ind.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 6, "url": "/pag/central.html", "nombre": "Aire Acondicionado Centralizado", "foto": "/pag/img/central-uno.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 7, "url": "/pag/ventana.html", "nombre": "Aire Acondicionado Ventana", "foto": "/pag/img/ventana.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 8, "url": "/pag/cortina.html", "nombre": "Cortina de Aire", "foto": "/pag/img/cortina-uno.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 9, "url": "/pag/portatil.html", "nombre": "Aire Acondicionado Portátil", "foto": "/pag/img/portatil-uno.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 10, "url": "/pag/enfriador.html", "nombre": "Aire Enfriador", "foto": "/pag/img/enfria.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 11, "url": "/pag/deshumificador.html", "nombre": "Deshumificador", "foto": "/pag/img/deshumificador.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60},
+        { "id": 12, "url": "/pag/torre.html", "nombre": "ventilador de Torre", "foto": "/pag/img/torre.webp", "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis error fugiat placeat facere quasi illum", "precio": 666.60}
+    ]
+}
